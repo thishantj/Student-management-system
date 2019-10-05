@@ -1,0 +1,49 @@
+create table progressCard(
+		progId int not null identity(1,1) primary key,
+		st_name varchar(50) not null,
+		st_id int not null,
+		class varchar(10) not null,
+		term varchar(5) not null,
+		eng_mark float not null,
+		maths_mark float not null,
+		sinhala_mark float not null,
+		creative_mark float not null,
+		total float not null,
+		average float not null,
+		height1 float not null,
+		height2 float not null,
+		height3 float not null,
+		height_prog float not null,
+		weight1 float not null,
+		weight2 float not null,
+		weight3 float not null,
+		weight_prog float not null,
+		s1 int not null,
+		s2 int not null,
+		s3 int not null,
+		s4 int not null,
+		p1 int not null,
+		p2 int not null,
+		p3 int not null,
+		l1 int not null,
+		l2 int not null,
+		l3 int not null,
+		l4 int not null,
+		l5 int not null,
+		l6 int not null,
+		c1 int not null,
+		c2 int not null,
+		c3 int not null,
+		c4 int not null,
+		c5 int not null,
+		c6 int not null,
+		remarks varchar(300) not null,
+
+		constraint fk1 foreign key(st_id) references students(studentID), 
+		  
+); 
+
+
+
+
+

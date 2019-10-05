@@ -1,0 +1,19 @@
+create table enroll(
+
+	name varchar(50),
+	type varchar(20),
+	password varchar(50),
+
+	CONSTRAINT pk_enroll PRIMARY KEY (name)
+	)
+
+create table notice(
+
+	subject varchar(30),
+	name varchar(30),
+	details varchar(70),
+	email varchar(50),
+	date date,
+
+	CONSTRAINT pk_notice PRIMARY KEY (name)
+	)

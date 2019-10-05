@@ -1,0 +1,19 @@
+create table students(
+	studentID int primary key,
+	fname nvarchar(20),
+	lname nvarchar(50),
+	dob date,
+	parentName varchar(100),
+	tel int,
+	address varchar(200),
+	email varchar(100)
+)
+
+
+create table fees(
+	ID int primary key,
+	Name nvarchar(30),
+	PaymentID int,
+	dob date,
+	Fee int
+)
